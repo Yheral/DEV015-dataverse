@@ -1,6 +1,7 @@
-import { example } from './dataFunctions.js';
-import { renderItems } from './view.js';
+import {data} from './dataset.js';
+import {renderItems} from './view.js';
 
-import data from './data/dataset.js';
-
-console.log(example, renderItems(data), data);
+//NOTA DE ERROR no usaste {} para el import dentro
+const mainContainer = document.getElementById("root")
+mainContainer.appendChild(renderItems(data))
+console.log(data, renderItems(data), data);

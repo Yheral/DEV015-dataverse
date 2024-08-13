@@ -1,4 +1,5 @@
-[
+//NOTA DE ERROR: no funcion porque no le pusiste que exporte esto jaja como iba aparecer pues :(
+export const data = [
   {
     "id": "fundacion_teleton",
     "name": "Fundación Teletón",
@@ -489,4 +490,4 @@
       "web": "https://www.emprendedoreslocales.org.pe"
     }
   }
-]
+];
