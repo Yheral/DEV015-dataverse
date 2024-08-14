@@ -1,26 +1,90 @@
 /* Estilos generales */
+:root {
+   --celeste:#90eef9;
+   --rojo: #ff3131;
+   --plomo:#d9d9d9;
+   --negro:#000;
+  }
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: var(--celeste);
+}
+header{
+    background-color: var(--celeste);
+    padding: 10px;
 }
 
-header, footer {
-  background-color: #f8f8f8;
-  padding: 10px;
-  text-align: center;
-}
+header h1{
+    color:var(--rojo);
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 800px;
+    padding: 6px;
 
+}
+header p{
+    color: #000;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 800px;
+    padding: 6px;
+
+}
+.logo {
+    width: 100px; /* Ajusta el ancho a tu gusto */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 10px; 
+    margin-top:  0px;;/* Ajusta el margen según sea necesario */
+    float: left;
+    position: fixed;
+}
+.llama{
+    width: 810px; /* Ajusta el ancho a tu gusto */
+    height: auto; /* Mantiene la proporción de la imagen */
+    float: right;
+    margin:auto;
+}
 main {
   padding: 20px;
 }
-
-/* Estilo del contenedor de la cuadrícula */
-#root {
-  display: flex; /* Activa Flexbox */
-  flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea */
-  gap: 20px; /* Espacio entre los elementos */
-  justify-content: center; /* Centra los elementos en la línea */
+#form-section h2{
+    background-color: var(--rojo);
+    text-align: center;
+    color:white;
+    font-size: 25px;
 }
-
-
+/* Estilo del contenedor de la cuadrícula */
+.org.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    width: 30%;
+    margin-left: 100px;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    flex: 1 1 calc(25% - 20px);
+    background-color: var(--plomo); /* Color de fondo claro */
+    padding: 20px;
+    border: 0.3px solid var(--negro);
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px;
+    }
+footer{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--rojo);
+}
+form{
+    font-family: Arial, sans-serif;
+    margin-left: 100px;
+}

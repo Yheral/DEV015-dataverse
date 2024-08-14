@@ -1,10 +1,9 @@
-//NOTA DE ERROR: no funcion porque no le pusiste que exporte esto jaja como iba aparecer pues :(
-export const data = [
+export default [
   {
     "id": "fundacion_teleton",
     "name": "Fundación Teletón",
     "shortDescription": "Fundación dedicada a la rehabilitación y apoyo integral de niños y jóvenes con discapacidad motriz.",
-    "imageURL": "https://example.com/images/fundacion_teleton.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr31OdSBgys6PBf-n1abvMhJeUnQl98aJWpg&s",
     "facts": {
       "Año de fundación": 1990,
       "ODS de mayor identificación": ["3 - Salud y Bienestar", "10 - Reducción de las Desigualdades"],
@@ -18,7 +17,7 @@ export const data = [
     "id": "promperu",
     "name": "PromPerú",
     "shortDescription": "Institución que promueve el desarrollo del turismo y la exportación de productos peruanos a nivel global.",
-    "imageURL": "https://example.com/images/promperu.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2000,
       "ODS de mayor identificación": ["8 - Trabajo Decente y Crecimiento Económico", "12 - Producción y Consumo Responsable"],
@@ -32,7 +31,7 @@ export const data = [
     "id": "ong_ama",
     "name": "ONG AMA",
     "shortDescription": "Organización dedicada a la protección y promoción de los derechos de los niños y adolescentes en situación de vulnerabilidad.",
-    "imageURL": "https://example.com/images/ong_ama.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2005,
       "ODS de mayor identificación": ["1 - Fin de la Pobreza", "16 - Paz, Justicia e Instituciones Sólidas"],
@@ -46,7 +45,7 @@ export const data = [
     "id": "crecer_con_esperanza",
     "name": "Crecer con Esperanza",
     "shortDescription": "Entidad que trabaja en el desarrollo educativo y emocional de niños y adolescentes en comunidades rurales.",
-    "imageURL": "https://example.com/images/crecer_con_esperanza.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2010,
       "ODS de mayor identificación": ["4 - Educación de Calidad", "10 - Reducción de las Desigualdades"],
@@ -60,7 +59,7 @@ export const data = [
     "id": "al_cambio",
     "name": "Al Cambio",
     "shortDescription": "Organización enfocada en la promoción de prácticas sostenibles y el cuidado del medio ambiente.",
-    "imageURL": "https://example.com/images/al_cambio.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2012,
       "ODS de mayor identificación": ["13 - Acción por el Clima", "15 - Vida de Ecosistemas Terrestres"],
@@ -74,7 +73,7 @@ export const data = [
     "id": "red_de_vida",
     "name": "Red de Vida",
     "shortDescription": "Red de apoyo a mujeres emprendedoras y en situación de riesgo, promoviendo la igualdad de oportunidades y el desarrollo económico.",
-    "imageURL": "https://example.com/images/red_de_vida.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2015,
       "ODS de mayor identificación": ["5 - Igualdad de Género", "8 - Trabajo Decente y Crecimiento Económico"],
@@ -88,7 +87,7 @@ export const data = [
     "id": "paseos_educativos",
     "name": "Paseos Educativos",
     "shortDescription": "Organización que promueve la educación ambiental y la conciencia ecológica a través de excursiones y actividades educativas.",
-    "imageURL": "https://example.com/images/paseos_educativos.jpg",
+    "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTpfag8p7JGPMaLrjAmwrjdgha6YtjK04-iA&s",
     "facts": {
       "Año de fundación": 2018,
       "ODS de mayor identificación": ["4 - Educación de Calidad", "15 - Vida de Ecosistemas Terrestres"],
