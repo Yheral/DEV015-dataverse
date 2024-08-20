@@ -6,8 +6,8 @@
       <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-      <img class=logo src="logo.png" alt="Logo de Impacto Social Perú">
-      <img class=llama src="llama.png" alt="Llama con gafas">
+      <img class="logo" src="logo.png" alt="Logo de Impacto Social Perú">
+      <img class="llama" src="llama.png" alt="Llama con gafas">
       <header>
         <h1>Bienvenido a Impacto Social Perú</h1>
         <p>Conectando organizaciones sociales para un Perú más fuerte y solidario.</p>
@@ -15,14 +15,21 @@
       <main>
         <section id="form-section">
           <h2>Conoce a las organizaciones que están generando el cambio</h2>
+          <div id="calcular">Cálculos:</div>
+          <button id="calcular">???</button>
           <form>
             <label for="org-select">Seleccione aquí</label>
-            <select id="org-select" name="organization" class="select-class" required>
-            </select>
-          </form>
+            <select id="org-select" name="organization" required></select>
+          </form> 
+        </section>
+        <section id="order-section">
+          <label for="sort-select">Ordenar</label>
+          <select id="sort-select" name="organization" required>
+            <option value="asc">Ascendente</option>
+            <option value="desc">Descente</option>
+          </select>
         </section>
         <section id="org-section">
-          <ul id="org-list"></ul>
           <div id="root"></div>
         </section>
       </main>

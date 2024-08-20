@@ -1,14 +1,14 @@
 export const renderItems = (data) => {
-//console.log(data)
+  console.log(data);
   //declaro una constante con metodo del DOM
   const list = document.createElement("ul");
   // Creamos una lista <ul> para poner todos los elementos
-  list.setAttribute('itemscope', ''); //// Decimos que esta lista tiene detalles especiales
 
-  data.forEach(element => {
-    const listItem = document.createElement("li")
-    listItem.setAttribute('itemscope', '');
-    
+  data.forEach((element) => {
+    const listItem = document.createElement("li");
+    listItem.setAttribute('itemscope', ''); // Decimos que esta lista tiene detalles especiales
+    listItem.setAttribute('itemtype', 'http://schema.org/Organization'); // Agrega el atributo itemtype
+
     //Agregamos la información del elemento a <li>
     listItem.innerHTML = `
     <div class="card">
@@ -27,8 +27,8 @@ export const renderItems = (data) => {
     ;
   
     // Añadimos el nuevo <li> a la lista
-    list.appendChild(listItem)
-  })
+    list.appendChild(listItem);
+  });
   
   // Aquí comienza tu código y puedes retornar lo que tu necesites
 

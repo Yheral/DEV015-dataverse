@@ -1,4 +1,4 @@
-export default [
+const data=[
   {
     "id": "fundacion_teleton",
     "name": "Fundación Teletón",
@@ -490,3 +490,4 @@ export default [
     }
   }
 ];
+export default data;
