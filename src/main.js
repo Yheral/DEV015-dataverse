@@ -1,12 +1,12 @@
 import data from './data/dataset.js';
 import {renderItems} from './view.js';
 import { filterData,sortData} from './dataFunctions.js'; //importamos para la función de filtro, puede importar dos cosas del mismo archiv 
-import { compuStats } from './dataFunctions.js'; //??
+//import { compuStats } from './dataFunctions.js'; //??
 
 const mainContainer = document.getElementById("root");
 const selectElement = document.getElementById("org-select");
 const sortSelectElement=document.getElementById("sort-select");
-const compuStats=document.getElementById("calcular");??
+//const compuStats=document.getElementById("calcular");
 
 // Renderiza todos los elementos al cargar la página
 mainContainer.appendChild(renderItems(data));
@@ -26,11 +26,11 @@ const updateItems = () => {
   mainContainer.innerHTML="";
   mainContainer.appendChild(renderItems(sortedData));
 };
-selectElement.addEventListener("change",updateItems)
-sortSelectElement.addEventListener("change",updateItems) 
-compuStatsElement.addEventListener("click";()=>{
-  const stats=compuStats(data);
-});
+/*DUDAS
+selectElement.addEventListener("change",updateItems);
+sortSelectElement.addEventListener("change",updateItems) ;
+compuStatsElement.addEventListener("click",()=>{
+  const stats=compuStats(data);*/
 
 data.forEach(org=>{
   const option= document.createElement("option");
