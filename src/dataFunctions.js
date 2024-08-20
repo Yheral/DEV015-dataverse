@@ -1,4 +1,3 @@
-import data from './data/dataset.js';
 /*export const data = {
   if (!Array.isArray(data)){
     return data;
@@ -26,12 +25,10 @@ export const sortData = (data,sortBy,sortOrder) => {
     }
   });};
 
-export const compuStats = (data) => {
+/*export const compuStats = (data) => {
   function countOrganizations() {
     const organizations=document.querySelectorAll(".organizations");
     const count=organizations.length;
     console.log("CANTIDAD DE ORG",count);
     return count;
-  };
-
-};
+  };*/

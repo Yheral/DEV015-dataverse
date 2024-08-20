@@ -1,5 +1,4 @@
 export const renderItems = (data) => {
-  console.log(data);
   //declaro una constante con metodo del DOM
   const list = document.createElement("ul");
   // Creamos una lista <ul> para poner todos los elementos

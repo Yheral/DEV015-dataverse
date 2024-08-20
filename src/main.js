@@ -26,9 +26,10 @@ const updateItems = () => {
   mainContainer.innerHTML="";
   mainContainer.appendChild(renderItems(sortedData));
 };
-/*DUDAS
+
 selectElement.addEventListener("change",updateItems);
 sortSelectElement.addEventListener("change",updateItems) ;
+/*DUDAS
 compuStatsElement.addEventListener("click",()=>{
   const stats=compuStats(data);*/
 
