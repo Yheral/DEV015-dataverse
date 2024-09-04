@@ -13,22 +13,109 @@
         <p>Conectando organizaciones sociales para un Perú más fuerte y solidario.</p>
       </header>
       <main>
-        <section id="form-section">
-          <h2>Conoce a las organizaciones que están generando el cambio</h2>
-          <div id="calcular">Cálculos:</div>
-          <button id="calcular">???</button>
+      <h2>Conoce a las organizaciones que están generando el cambio</h2>
+      <section id="stats1" class="estadisticas"></section>
+      <section id="form-section">
           <form>
             <label for="org-select">Seleccione aquí</label>
-            <select id="org-select" name="organization" required></select>
+            <select id="org-select" name="org-select" required>
+              <option value="all">All</option>            
+            </select>  
           </form> 
-        </section>
-        <section id="order-section">
+      </section>
+      <section id="ods">
+          <label for="ods-select">ODs</label>
+          <select id="ods-select" name="ods-select" required>
+            <option value="all">All</option>
+            <option value="1 - Fin de la Pobreza">1 - Fin de la Pobreza</option>
+            <option value="2 - Hambre Cero">2 - Hambre Cero</option>
+            <option value="3 - Salud y Bienestar">3 - Salud y Bienestar</option>
+            <option value="4 - Educación de Calidad">4 - Educación de Calidad</option>
+            <option value="5 - Igualdad de Género">5 - Igualdad de Género</option>
+            <option value="6 - Agua Limpia y Saneamiento">6 - Agua Limpia y Saneamiento</option>
+            <option value="7 - Energía Asequible y No Contaminante">7 - Energía Asequible y No Contaminante</option>
+            <option value="8 - Trabajo Decente y Crecimiento Económico">8 - Trabajo Decente y Crecimiento Económico</option>
+            <option value="9 - Industria, Innovación e Infraestructura">9 - Industria, Innovación e Infraestructura</option>
+            <option value="10 - Reducción de las Desigualdades">10 - Reducción de las Desigualdades</option>
+            <option value="11 - Ciudades y Comunidades Sostenibles">11 - Ciudades y Comunidades Sostenibles</option>
+            <option value="12 - Producción y Consumo Responsable">12 - Producción y Consumo Responsable</option>
+            <option value="13 - Acción por el Clima">13 - Acción por el Clima</option>
+            <option value="14 - Vida Submarina">14 - Vida Submarina</option>
+            <option value="15 - Vida de Ecosistemas Terrestres">15 - Vida de Ecosistemas Terrestres</option>
+            <option value="16 - Paz, Justicia e Instituciones Sólidas">16 - Paz, Justicia e Instituciones Sólidas</option>
+            <option value="17 - Alianzas para Lograr los Objetivos">17 - Alianzas para Lograr los Objetivos</option>
+          </select>
+      </section>
+      <section id="order">
           <label for="sort-select">Ordenar</label>
-          <select id="sort-select" name="organization" required>
+          <select id="sort-select" name="sort-select" required>
+            <option value="all">All</option>
             <option value="asc">Ascendente</option>
-            <option value="desc">Descente</option>
+            <option value="desc">Descedente</option>
+          </select>
+      </section>
+        
+      <section id="fundation">
+          <label for="year-select">Año de fundación</label>
+          <select id="year-select" name="year-select">
+            <option value="all">All</option>
+            <option value="1946">1946</option>
+            <option value="1949">1949</option>
+            <option value="1961">1961</option>
+            <option value="1963">1963</option>
+            <option value="1971">1971</option>
+            <option value="1979">1979</option>
+            <option value="1981">1981</option>
+            <option value="1986">1986</option>
+            <option value="1993">1993</option>
+            <option value="1994">1994</option>
+            <option value="1997">1997</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2009">2009</option>
+            <option value="2011">2011</option>
+            <option value="2015">2015</option>            
           </select>
         </section>
+        
+        <section id="region-impact">
+          <label for="region-select">Region(es) de impacto</label>
+          <select id="region-select" name="region-select" required>
+            <option value="all">All</option>
+            <option value="Nacional">Nacional</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Ancash">Ancash</option>
+            <option value="Apurímac">Apurímac</option>
+            <option value="Arequipa">Arequipa</option>
+            <option value="Ayacucho">Ayacucho</option>
+            <option value="Cajamarca">Cajamarca</option>
+            <option value="Callao">Callao</option>
+            <option value="Cusco">Cusco</option>
+            <option value="Huancavelica">Huancavelica</option>
+            <option value="Huánuco">Huánuco</option>
+            <option value="Ica">Ica</option>
+            <option value="Junín">Junín</option>
+            <option value="La Libertad">La Libertad</option>
+            <option value="Lambayeque">Lambayeque</option>
+            <option value="Lima">Lima</option>
+            <option value="Loreto">Loreto</option>
+            <option value="Madre de Dios">Madre de Dios</option>
+            <option value="Moquegua">Moquegua</option>
+            <option value="Pasco">Pasco</option>
+            <option value="Piura">Piura</option>
+            <option value="Puno">Puno</option>
+            <option value="San Martín">San Martín</option>
+            <option value="Tacna">Tacna</option>
+            <option value="Tumbes">Tumbes</option>
+            <option value="Ucayali">Ucayali</option>
+            <option value="Trujillo">Trujillo</option>
+          </select>
+        </section>
+        <section id="boton">
+          <button id="reset-button">Limpiar</button>
+      </section>
         <section id="org-section">
           <div id="root"></div>
         </section>
