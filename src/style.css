@@ -41,10 +41,10 @@ header p{
     position: fixed;
 }
 .llama{
-    width: 780px; /* Ajusta el ancho a tu gusto */
+    width: 743px; /* Ajusta el ancho a tu gusto */
     height: auto; /* Mantiene la proporción de la imagen */
     float: right;
-    margin:auto;
+    margin:20px;
 }
 main h2{
     background-color: var(--rojo);
